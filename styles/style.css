@@ -1,37 +1,41 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
 
-*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+
 
 body {
-    font-family: ;
-    font-size: ;
-
+    margin:0;
+    padding:0;
+    font-family: 'montserrat';
+    font-size: 16px;
 }
 
+#navbar .spot-logo {
+    height: 100px;
+}
 
-nav {
+#navbar {
     display: flex;
     height: 60px;
-    justify-content: center;
+    justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 15px;
+    top: 0:
 }
 
-a {
+.navbar1 {
+    display: flex;
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    }
+
+.navbar1 > a {
     text-decoration: none;
     color: black;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-}
-
-li {
- padding: 10px 20px 10px 20px;
+    font-size: 1.5em;
 }
 
 .cover {
@@ -43,28 +47,33 @@ li {
     text-align: center;
     justify-content: center;
     color: white;
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-top: 10px
 }
 
-.title-section2 {
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    margin: 50px 30% auto 30%;
-    text-decoration-line: underline;
-    
+#message {
+    margin: 0 20% 0 20%;
+    font-size: 0.7em;
 }
+
+.title-section2h2 {
+    margin: 70px 30% 5px 30%;
+    margin-bottom: -10px;
+    font-size: 2.7em;
+    text-align: center;
+    margin: 70px 32% 60px 32%;
+    padding-bottom: 20px;
+    border-bottom: 6px solid #00B172;
+}
+
 
 .containerWhat {
     display: flex;
     justify-content: center;
-    
 }
 
 .features > img{
-    width: 100px
-    
+    width: 100px;
 }
 
 .features {
@@ -72,32 +81,63 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 0.33;
+    padding: 0 55px 0 55px;
+    text-align: center;
     margin: 50px auto 50px auto;
     font-size: 1em;
 }
 
 #white-logo {
     position: absolute;
-    
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.h3section1 {
+    color: #00B172;
+    font-weight: 900;
 }
 
 .section3 {
     background: #00B172;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     height: 20%;
-    
+}
 
+.bottomdesc {
+    display: flex;
+    flex-direction: column;
+    padding: 50px
 }
 
 #kanye {
-    margin: 120px;
-    
+    margin: 120px 100px 120px 200px;
+    width: 50%
 }
 
 #kanye-img {
-    width: 40%;
+    width: 85%;
+}
 
+.secondh2 {
+    color: #fff;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 10px;
+    width: 90%;
+    font-size: 2em;
+}
+
+.bottomdesc > h3 {
+    color: #fff;
+    font-weight: 900;
+}
+
+.bottomdesc > p {
+    color: #fff;
+    font-weight: 200;
 }
